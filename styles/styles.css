@@ -1,0 +1,17 @@
+.name-text {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.name-title {
+    opacity: 0.6;
+}
+
+.navbar {
+    float: right;
+}
+
+.text-large {
+    font-size: 150%;
+}

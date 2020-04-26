@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--Playing around and creating a lightweight website in HTML, CSS, Javascript-->
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/styles/styles.css" rel="stylesheet">
+        <link rel="icon" 
+              type="image/png" 
+              href="/favicon.ico"/>
+        <title>panick@'s blog</title>
+    </head>
+    <body>
+
+<!-- START NAV BAR... HOME / ABOUT / BLOG ARCHIVE -->    
+        <nav class="navbar navbar-default navbar-expand-lg navbar-text bg-light">
+            <div class="float-right navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/about.html">about</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/blog.html">blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/archive.html">archive</a></li>
+                </ul>
+            </div>
+        </nav>
+
+<!-- START introduction section -->
+        <div id="intro-container" class="container pt-5">
+            <div class="intro-wrap"> 
+                <div class="container">
+                    <div class="name-text">panick@</div>
+                    <div class="name-title">Technologist</div>
+                </div>
+                <h1 class="py-4 display-4">Hi, my name is Nick. I am a technologist focused on the cloud computing space. Welcome to my website :).</h1>
+            </div>
+        </div>
+
+<!-- START middle section -->
+
+        <div id="middle-container" class="container">
+            <div class="welcome-blurb-wrap"> 
+                <h3 class="heading-medium">Explore to find some info on myself, tech tutorials, random thoughts, and more!</h2>
+            </div>
+        </div>
+        
+<!-- START front-page projects -->
+
+        <div id="media-row" class="container">
+
+        <!--
+            <div id="project-container" class="float-left w-50 py-5">
+                <div id="front-page-1" class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DQIu373gSKU"></iframe>
+                </div>
+            </div>
+        -->
+            <div id="media-container-1" class="container w-50 float-left p-5">
+                <img id="project-img-1" src="/images/advanced-k8s.jpg" class="project-img float-left img-fluid"></img>
+                <p class="text-center p-2 small">Leading a Kubernetes training...</p>
+
+            </div>
+            <div id="media-container-2" class="container w-50 float-right p-5">
+                <img src="/images/google-singapore.jpg" class="project-img float-right img-fluid"></img>
+                <p class="text-center p-2 small">Checking out Google Singapore...</p>
+
+            </div>
+        </div>
+
+        <div class="pt-5 container">
+            <div>
+                ***This is still in progress!***
+            </div>
+        </div>
+
+
+    </body>
+</html>
+
